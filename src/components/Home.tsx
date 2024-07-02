@@ -3,7 +3,7 @@ import TopList from './TopList'
 import VideoList from './VideoList'
 function Home() {
   return (
-    <div className='w-full  overflow-hidden relative left-4'>
+    <div className='w-full h-screen  overflow-hidden relative left-4'>
   
       <VideoList/>
  
