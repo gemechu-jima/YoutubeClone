@@ -8,11 +8,11 @@ function App() {
  
 
   return (
-      <div className='bg-gray-800  text-white'>
+      <div className='bg-gray-800 h-screen  text-white'>
         <Header />
         <div className='flex w-[95%] mx-auto pt-20'>
           <SidebarPage />
-          <div className={`${iconClick ? "ml-44":"ml-16"}`}>
+          <div className={`${iconClick ? "ml-48":"ml-16"} mt-10 `}>
           <MainPage/>
           </div>
         </div>

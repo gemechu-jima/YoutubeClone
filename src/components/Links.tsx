@@ -129,7 +129,7 @@ function Links() {
               className={`flex  text-lg  flex-col`}
               onClick={() => handleClick(index)}
             >
-              <div
+              <Link to={link.path}
                 className={`flex py-2 m-1 items-center gap-3 rounded-lg hover:bg-gray-500 ${
                   iconClick ? "flex-row" : "flex-col"
                 }`}
@@ -138,7 +138,7 @@ function Links() {
                 <span className={`${iconClick ? "text-lg" : "text-xs"}`}>
                   {link.label}
                 </span>
-              </div>
+              </Link>
               <p>
                 { iconClick && link.label === "Subscription" ? "_____________________" : ""}
               </p>
